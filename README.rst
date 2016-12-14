@@ -49,8 +49,9 @@ the moment it unfortunatly does not support any PHP4_ code.
 
 phUML has quite a informative help interface, which can be accessed by calling
 it with the -h option. ::
-	
-	$ phuml -h
+	$ cd src/app
+	$ chmod +x phuml
+	$ ./phuml -h
 
 The phUML generator works with so called processors, which may be used in a
 chain to create a lot of different output formats. Every available processor
